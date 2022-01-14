@@ -100,5 +100,5 @@ jobs:
     - name : Upload artifact
       uses: actions/upload-artifact@master
       with:
-        name: OpenWrt
+        name: wubit
         path: openwrt/bin
